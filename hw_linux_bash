@@ -1,0 +1,6 @@
+mkdir ruyu
+cd ruyu
+vim file1.sh
+cat file1.sh
+chmod u+rwx file1.sh
+ls
