@@ -1,0 +1,5 @@
+T3: ps -aux                  #可以查看PID,%CPU,%MEM
+T4: free -h > ruyu1.txt      #total 3.7G, used 1.1G, free 176M
+T5: wc -c ruyu1.txt   #共204个字节
+T6: sort -r ruyu1.txt |uniq  
+T7: top      #可以实时查看系统进程; ps       #可以查看当前进程
