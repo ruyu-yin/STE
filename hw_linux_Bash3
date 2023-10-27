@@ -1,0 +1,22 @@
+T8:find /home -type f | wc -l   #共计1839个
+T9:netstat -anp | grep "LISTEN" | wc -l， netstat -anp | grep "CONNECT" | wc -l  # listen有25个，connect有108个;
+#T10：下面是bash脚本,生成文件
+ #!/bin/bash
+# 指定目录名称和文件名称
+    #!/bin/bash
+    ry2_dir="ruyudir"
+    ry2_file="ruyufile"
+    mkdir $ry2_dir
+    cd $ry2_dir
+    touch $ry2_file
+
+
+#T11：下面是bash脚本,判断目录是否存在
+ry2_dir="ruyudir"
+if [ -d "$ry2_dir" ]; then
+    echo "目录 $ry2_dir 已存在"
+else
+    echo "目录 $ry2_dir 不存在"
+fi
+
+  
