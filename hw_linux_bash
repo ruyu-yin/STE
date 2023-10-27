@@ -1,6 +1,6 @@
-mkdir ruyu
-cd ruyu
-vim file1.sh
-cat file1.sh
-chmod u+rwx file1.sh
-ls
+T1：mkdir ruyu        #创建
+T2: cd ruyu         #打开
+T3: vim file1.sh    #编辑
+T4: cat file1.sh   #查看内容
+T5: chmod u+rwx file1.sh  #可读可写可执行
+T6: pwd       #查看目录
